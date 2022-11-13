@@ -1,5 +1,7 @@
 # Zapisville
 Solution for case given by Zapis
+*** Dony by "Hackkage":
+Sabina Shamshidin, Damilya Kopzhanova, Aiya Zeinulla, Nurzhamal Shaliyeva ***
 
 ## Case:
 - Create an internal mini-game given the context of the Zapis mobile app to gamify the user experience.
