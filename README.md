@@ -19,3 +19,6 @@ Sabina Shamshidin, Damilya Kopzhanova, Aiya Zeinulla, Nurzhamal Shaliyeva**
 ## Solution:
 Interactive game with user interaction with their virtual character. The main task of the user is to maintain daily progress in passing mini-games to receive rewards and bonuses. The character interacts with the user through push notifications and random requests.
 
+<img width="1156" alt="Снимок экрана 2022-11-13 в 16 37 07" src="https://user-images.githubusercontent.com/82763714/201517575-2f55808d-c77c-4f14-9219-017e809e8cb3.png">
+<img width="1061" alt="Снимок экрана 2022-11-13 в 16 37 30" src="https://user-images.githubusercontent.com/82763714/201517582-324abe9e-cac8-4f14-aad3-4735bf7afd0d.png">
+<img width="1054" alt="Снимок экрана 2022-11-13 в 16 37 49" src="https://user-images.githubusercontent.com/82763714/201517585-d9ee76d8-d68c-44a6-9f4f-146c159668e4.png">
