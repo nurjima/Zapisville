@@ -1,2 +1,2 @@
-# Zapizville
+# Zapisville
 Solution for case given by Zapis
