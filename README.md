@@ -1,2 +1,2 @@
 # Zapizville
-Solution for case given Zapis
+Solution for case given by Zapis
