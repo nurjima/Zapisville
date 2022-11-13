@@ -1,0 +1,228 @@
+ @font-face { font-family: Brewsky; src: url('../fonts/Brewsky.ttf'); } 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#game {
+	position: relative;
+    display: block;
+    margin: 0 auto;
+	border: 4px double blue;
+	background:  #ffcc99;
+    overflow: hidden;
+    user-select: none;
+}
+
+.game-cell {
+    display: block;
+    position:  relative;
+    float: left;
+    width: 64px;
+    height: 64px;
+}
+
+.selected-cell {
+    z-index: 0;
+    background: url('../img/select.png');
+}
+
+#game-grid img {
+    position:absolute;
+    z-index: 100;
+}
+
+.bombed img {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+    transform: scale(6);
+    transition: transform 0.5s;
+    display: block;
+   
+} 
+
+.destroyed img {
+    transform: scale(0.1);
+    transition: transform 1s;
+}
+
+h1 {
+	font-family: Brewsky, sans-serif; 
+	color: red; 
+	text-align: center;
+	font-size: 500%;
+}
+
+h2 {
+    font-family: Brewsky, sans-serif; 
+    color: red; 
+    text-align: center;
+    font-size: 48px;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+	background: url(../img/back.jpg) Black no-repeat;
+	background-size: cover;
+    background-position: left top;  
+    width: 100%;
+    height: 100%;
+}
+
+#level-status {
+    text-align: center;
+    font-size: 48px;
+    margin: 0 auto;
+    font-family: Brewsky, sans-serif;
+}
+
+#gem-upgrade-box {
+    font-size: 36px;
+    margin: 20px auto 0;
+    display: block;
+    font-family: Brewsky, sans-serif;
+    border: 4px double blue;
+    background:  #ffcc99;
+    text-align: center;
+}
+
+.gem-status {
+    display: inline-block;
+    margin: 10px 5px 20px 5px;
+}
+
+.gem-status img {
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+}
+
+#score-box {
+    margin-right: 20px;
+}
+
+#progress {
+    margin: 0 auto;
+    display: block;
+    height: 20px;
+    border: 4px double blue;
+}
+
+#bar {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: #91d3ff;
+}
+
+#menu {
+    padding-top: 100px;
+	display: block;
+	position: absolute;
+ 	margin-left: -200px;
+	margin-top: -200px; 
+	background-color: #17005d;
+	width: 400px;
+	height: 300px;
+	top: -208px;
+	left: 50%;
+	z-index: 2000;
+    border-radius: 10px;
+    border: 4px solid black;
+}
+
+#game-result {
+    text-align: center;
+    color: #FFC000;
+    font-size: 48px;
+    margin: 20px auto 0;
+    display: block;
+    font-family: Brewsky, sans-serif;
+}
+
+#restart-btn {
+  background: #f7b900;
+  background-image: -webkit-linear-gradient(top, #f7b900, #d1661f);
+  background-image: -moz-linear-gradient(top, #f7b900, #d1661f);
+  background-image: -ms-linear-gradient(top, #f7b900, #d1661f);
+  background-image: -o-linear-gradient(top, #f7b900, #d1661f);
+  background-image: linear-gradient(to bottom, #f7b900, #d1661f);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#restart-btn:hover {
+  background: #fc9f3c;
+  text-decoration: none;
+}
+
+.win span{
+    color: green;
+}
+
+.loose span{
+    color: red;
+}
+
+#help {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #0099ff;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+#help:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.preload {
+    display: none;
+    visibility: hidden;
+}
+
+#play-music {
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #821199;
+    padding: 20px 20px 21px 20px;
+    text-decoration: none;
+}
+
+#play-music:hover {
+    background: #ac09ed;
+    text-decoration: none;
+}
+
+#play-music:focus {
+    outline:0;
+}

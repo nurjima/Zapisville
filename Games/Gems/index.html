@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/preload.js"></script>
+    <script type="text/javascript" src="js/levelTools.js"></script>
+	<script type="text/javascript" src="js/engine.js"></script>
+    <script type="text/javascript" src="js/UI.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Candy Eater</title>
+</head>
+<body>
+	<h1></h1>
+    <div id="level-status">
+        <div id="score-box">
+        </div>
+        <div id="progress">
+            <div id="bar">
+            </div>
+        </div>
+    </div>
+	<div id="game">
+		<div id="game-grid">
+		</div>
+		<div id="menu">
+            <div id='game-result'>
+            </div>
+		</div>
+	</div>
+
+    <div id="gem-upgrade-box">
+        <button id="help">help</button>
+        <p>Left till upgrade:</p>
+    </div>
+
+    <div class='preload'>
+    </div>
+    <audio id='music' src="sound/music.mp3" volume="0.0" loop></audio>
+    <button id='play-music'>
+        Exit
+    </button>
+    <audio id='pop' src="sound/lick.mp3" preload></audio>
+    <audio id='bomb' src="sound/bomb.mp3" preload></audio>
+</body>
+</html>
